@@ -36,7 +36,7 @@ This is a Python-based face recognition attendance system using OpenCV. It allow
 - `attendance.csv` → Logs attendance records  
 - `dataset_collection.py` → Script to collect and store face images  
 - `train_model.py` → Script to train the face recognition model  
-- `recognize_attendance.py` → Real-time attendance recognition script  
+- `face_recognizer_attendance_inout.py` → Real-time attendance recognition script  
 - `README.md` → Documentation of the project  
 
 
@@ -48,10 +48,9 @@ This is a Python-based face recognition attendance system using OpenCV. It allow
 
 1. **Clone the repository**
 
-git clone https://github.com/your-username/face-attendance.git
-cd face-attendance
+git clone https://github.com/divya5-11-04/Attendance-System.git
+cd Attendance-System
 Install dependencies
-
 
 pip install opencv-contrib-python numpy
 Ensure webcam is connected and working.
@@ -66,7 +65,7 @@ train_model.py
 This trains the LBPH model and saves trainer.yml.
 
 Step 3: Run the Attendance System
-recognize_attendance.py
+face_recognizer_attendance_inout.py
 This starts webcam recognition. When a registered face is recognized, attendance is marked with a timestamp in attendance.csv.
 
 📊 Output
