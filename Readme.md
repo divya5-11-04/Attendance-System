@@ -27,16 +27,18 @@ This is a Python-based face recognition attendance system using OpenCV. It allow
 
 ---
 
+
+```markdown
 ## 📁 Project Structure
 
-Attendance/
-##├── dataset/ # Collected face images
-##├── trainer.yml # Trained model file
-##├── attendance.csv # Attendance logs
-##├── dataset_collection.py # Script to collect face images
-##├── train_model.py # Script to train recognizer
-##├── recognize_attendance.py # Script for real-time attendance
-##└── README.md # Project documentation
+- `dataset/` → Stores collected face images  
+- `trainer.yml` → Stores the trained face recognition model  
+- `attendance.csv` → Logs attendance records  
+- `dataset_collection.py` → Script to collect and store face images  
+- `train_model.py` → Script to train the face recognition model  
+- `recognize_attendance.py` → Real-time attendance recognition script  
+- `README.md` → Documentation of the project  
+
 
 
 
