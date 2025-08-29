@@ -30,13 +30,13 @@ This is a Python-based face recognition attendance system using OpenCV. It allow
 ## 📁 Project Structure
 
 Attendance/
-├── dataset/ # Collected face images
-├── trainer.yml # Trained model file
-├── attendance.csv # Attendance logs
-├── dataset_collection.py # Script to collect face images
-├── train_model.py # Script to train recognizer
-├── recognize_attendance.py # Script for real-time attendance
-└── README.md # Project documentation
+##├── dataset/ # Collected face images
+##├── trainer.yml # Trained model file
+##├── attendance.csv # Attendance logs
+##├── dataset_collection.py # Script to collect face images
+##├── train_model.py # Script to train recognizer
+##├── recognize_attendance.py # Script for real-time attendance
+##└── README.md # Project documentation
 
 
 
